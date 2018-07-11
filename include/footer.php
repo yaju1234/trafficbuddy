@@ -14,7 +14,11 @@
 		</div>
 		<div class="copyright scrollimation fade-down">
 			<div class="container">
-				&copy; 2018 All Rights Reserved by Traffic Buddy .
+				Copyright © 2018 TRAFFIC BUDDY. All Rights Reserved.
+				<ul>
+					<li><a href="terms-conditions.php">Terms and Conditions</a></li>
+					<li><a href="privacy-policy.php">Privacy Statement</a></li>
+				</ul>
 			</div>
 		</div>
 	</footer>

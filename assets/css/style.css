@@ -16,8 +16,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
 h1 { font-family: 'Oswald', sans-serif; font-size: 45px; color: #fff; font-weight: 400; line-height: 52px; text-transform: none; text-transform: uppercase; }
 h2 { font-family: 'Oswald', sans-serif; font-size: 40px; color: #444444; font-weight: 700; line-height: 46px; text-transform: none; text-transform: uppercase; margin: 0px 0px 15px; }
 h3 { font-family: 'Oswald', sans-serif; font-size: 30px; line-height: 36px; color: #333333; font-weight: 400; text-transform: capitalize; margin: 0px 0px 15px; }
-h4 { font-family: 'Open Sans', sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-transform: capitalize; margin: 0 0 15px; }
-h5 { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 26px; color: #333333; text-transform: uppercase; font-weight: 300; }
+h4 { font-family: 'Open Sans', sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-transform: capitalize; }
+h5 { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 26px; color: #333333; text-transform: uppercase; font-weight: 700; }
 h6 { }
 
 /*-------------------------------------------------- PADDING */
@@ -65,7 +65,7 @@ input[type=text], input[type=password] { outline: none; color: #666; }
 :-ms-input-placeholder { opacity: 1; }
 
 /*------------------------------------------------------- CONTAINER */
-.container { max-width: 1200px; margin: 0 auto; padding: 0 15px; position: relative; z-index: 3; }
+.container { max-width: 1320px; margin: 0 auto; padding: 0 15px; position: relative; z-index: 3; }
 .container:after { content: ""; display: table; clear: both; }
 .btn { display: inline-block; vertical-align: top; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; font-weight: 400; padding: 10px 40px; border-radius: 20px; border: none; }
 .btn.large { padding: 15px 50px; border-radius: 0px; font-size: 16px; line-height: 22px; }
@@ -154,18 +154,17 @@ footer ul { display: block; }
 footer ul.left-list { float: left; margin: 5px 0px 0px; }
 footer ul.right-list { float: right; }
 footer ul:after { content: ""; display: table; clear: both; }
-footer ul li { display: inline-block; vertical-align: middle; padding: 0 12px; font-size: 14px; line-height: 14px; font-weight: normal; font-weight: 400; color: #109af5; }
+footer ul li { display: inline-block; vertical-align: middle; padding: 0 12px; font-size: 14px; line-height: 14px; font-weight: normal; font-weight: 400; color: #109af5; border-right: 1px solid #109af5; }
 footer ul li:first-child { padding-left: 0px; }
-footer ul li:last-child { padding-right: 0px; }
-footer ul.left-list li { border-right: 1px solid #109af5; }
-footer ul.left-list li:last-child { border-right: none; }
+footer ul li:last-child { padding-right: 0px; border-right: none; }
 footer ul li a { text-decoration: none; font-size: 14px; line-height: 14px; font-weight: 400; color: #fff; margin-left: 5px; }
 footer ul li a:hover { color: #109af5; }
-footer ul.right-list li { padding: 0px 12px 0px 0px; }
+footer ul.right-list li { padding: 0px 12px 0px 0px; border: none; }
 footer ul.right-list li:last-child { padding-right: 0px; }
 footer ul.right-list li a { width: 30px; height: 30px; line-height: 30px; text-align: center; background-color: #109af5; border-radius: 50%; margin: 0px; display: inline-block; vertical-align: top; }
-footer .copyright { padding: 10px 0px; border-top: 1px solid #004c81; text-align: center; font-size: 13px; line-height: 20px; color: #fff; }
-
+footer .copyright { padding: 10px 0px; border-top: 1px solid #004c81; text-align: center; font-size: 13px; line-height: 13px; color: #fff; }
+footer .copyright ul { display: inline-block; vertical-align: top; }
+footer .copyright ul li a { font-size: 13px; line-height: 13px; }
 
 
 /* -----INNER PAGE STARTS HERE----- */
@@ -180,10 +179,11 @@ footer .copyright { padding: 10px 0px; border-top: 1px solid #004c81; text-align
 .how-its-work .row { -webkit-display: flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; padding: 70px 0px; }
 .how-its-work .screen { width: 40%; text-align: right; }
 .how-its-work .description { width: 55%; text-align: left; }
-
 .how-its-work .row:nth-child(even) .screen { order: 2; text-align: left; }
 .how-its-work .row:nth-child(even) .description { order: 1; text-align: right; }
 .how-its-work .row:last-child { padding-bottom: 0px; border-bottom: none; }
+.how-its-work h3 { margin: 0px 0px 25px; }
+.how-its-work p { line-height: 24px; }
 
 
 /* -----SUPPORT----- */
@@ -238,3 +238,22 @@ ul.contact-list li input[type="submit"]:hover { background-color: #01406c; color
 .contact .contact-via .call-us p strong { color: #333; }
 .contact .contact-via .btn { background-image: url('../images/icon-contact-btn.png'); background-repeat: no-repeat; background-position: 25px 6px; padding: 10px 30px 10px 60px; margin: 20px 0 0; }
 .contact .contact-via .location:before { background: url('../images/icon-location.png') no-repeat 0px 0px; }
+
+
+
+/* -----FAQ PAGE----- */
+.ui-accordion { margin: 60px 0px 0px; text-align: left; }
+.ui-accordion-header { font-size: 20px; line-height: 20px; margin: 0px 0px 2px; position: relative; cursor: pointer; padding: 10px 35px 10px 15px; background-color: #ddd; }
+.ui-accordion-header span { background-image: url('../images/accordian-arrow.png'); background-position: 0px 0px; background-repeat: no-repeat; width: 14px; height: 9px; position: absolute; right: 15px; top: 18px; }
+.ui-accordion-header-active.ui-accordion-header { margin: 0px; background-color: #109af5; color: #fff; }
+.ui-accordion-header-active.ui-accordion-header span { background-image: url('../images/accordian-arrow-active.png'); }
+.ui-accordion-content { padding: 15px; border: 1px solid #ddd; font-size: 14px; line-height: 22px; color: #333; }
+.ui-accordion-content-active { border: 1px solid #109af5; }
+
+
+/* -----TERMS AND CONDITION----- */
+.terms-condition { padding: 70px 0px; }
+.terms-condition h5 { margin: 0px 0px 30px; }
+.terms-condition ul { margin: 15px 0px; }
+.terms-condition ul li { list-style: inside; font-size: 14px; line-height: 20px; color: #333; margin: 0px 0px 10px; }
+.terms-condition ul li:last-child { margin: 0px; }
