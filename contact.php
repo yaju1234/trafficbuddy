@@ -2,7 +2,7 @@
 
 	<!-- INNER BANNER -->
 	<div class="inner-banner" >
-		<img src="assets/images/works.jpg" alt="">
+		<img src="assets/images/banner-contact-us.jpg" alt="">
 	</div>
 
 	<!-- CONTACT US -->
@@ -20,6 +20,9 @@
 						</li>
 						<li class="scrollimation fade-right d2">
 							<input type="text" name="" id="" placeholder="Email ID">
+						</li>
+						<li class="scrollimation fade-right d2">
+							<input type="text" name="" id="" placeholder="Phone Number">
 						</li>
 						<li class="scrollimation fade-right d3">
 							<textarea name="" id="" cols="30" rows="10" placeholder="Enquery"></textarea>
