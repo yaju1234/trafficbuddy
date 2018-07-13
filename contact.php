@@ -28,12 +28,7 @@
 							<textarea name="" id="description" cols="30" rows="10" placeholder="Enquery" required></textarea>
 						</li>
 						<li class="scrollimation fade-right d4">
-<<<<<<< HEAD
 						<button id="btn">Submit</button>
-							
-=======
-							<input type="button" name="" id="" value="Verzenden">
->>>>>>> 600a72bc8cf216ca12a0c3eb6980d1e2a2038158
 						</li>
 					</ul>
 				</div>

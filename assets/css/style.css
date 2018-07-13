@@ -218,8 +218,8 @@ ul.contact-list li textareainput:-ms-input-placeholder { color:#808080; opacity:
 ul.contact-list li textareainput::-webkit-input-placeholder { color: #808080; opacity: 1; }
 ul.contact-list li textareainput:-moz-placeholder { color: #808080; opacity: 1; }
 ul.contact-list li textareainput::-moz-placeholder { color: #808080; opacity: 1; }
-ul.contact-list li input[type="button"] { background-color: #109af5; border: none; font-size: 16px; line-height: 22px; color: #fff; font-weight: 400; text-transform: uppercase; padding: 10px 40px; border-radius: 30px; min-width: 150px; display: inline-block; vertical-align: top; }
-ul.contact-list li input[type="button"]:hover { background-color: #01406c; color: #fff; }
+ul.contact-list li button { background-color: #109af5; border: none; font-size: 16px; line-height: 22px; color: #fff; font-weight: 400; text-transform: uppercase; padding: 10px 40px; border-radius: 30px; min-width: 150px; display: inline-block; vertical-align: top; }
+ul.contact-list li button:hover { background-color: #01406c; color: #fff; }
 .contact .send-message:after { content: ""; position: absolute; right: 0px; top: 0px; height: 100%; width: 1px;
 	background: -moz-linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(210, 210, 210, 1) 18%, rgba(210, 210, 210, 1) 76%, rgba(255, 255, 255, 1) 100%); 
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(18%, rgba(210, 210, 210, 1)), color-stop(76%, rgba(210, 210, 210, 1)), color-stop(100%, rgba(255, 255, 255, 1))); 
