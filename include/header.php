@@ -12,7 +12,8 @@
     <link href="assets/css/waypoints.css" rel="stylesheet">
 	<!-- JQUERy LIBRARY -->
 	<script type="text/javascript" src="assets/js/jquery-2.2.4.js"></script>
-</head>
+	<!-- <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+</head> -->
 
 <body>
 	<!-- HEADER -->

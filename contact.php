@@ -16,19 +16,20 @@
 					<h3 class="scrollimation fade-left">e-mail us</h3>
 					<ul class="contact-list">
 						<li class="scrollimation fade-right d1">
-							<input type="text" name="" id="" placeholder="Your Name">
+							<input type="text" name="" id="name" placeholder="Your Name" required>
 						</li>
 						<li class="scrollimation fade-right d2">
-							<input type="text" name="" id="" placeholder="Email ID">
+							<input type="text" name="" id="email" placeholder="Email ID" required>
 						</li>
 						<li class="scrollimation fade-right d2">
-							<input type="text" name="" id="" placeholder="Phone Number">
+							<input type="text" name="" id="phone" placeholder="Phone Number" required>
 						</li>
 						<li class="scrollimation fade-right d3">
-							<textarea name="" id="" cols="30" rows="10" placeholder="Enquery"></textarea>
+							<textarea name="" id="description" cols="30" rows="10" placeholder="Enquery" required></textarea>
 						</li>
 						<li class="scrollimation fade-right d4">
-							<input type="submit" name="" id="" value="Verzenden">
+						<button id="btn">Submit</button>
+							
 						</li>
 					</ul>
 				</div>
@@ -47,3 +48,44 @@
 	</div>
 
 <?php include('include/footer.php') ?>
+
+<script type="text/javascript">
+
+$('#btn').click(function() {
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var phone = $("#phone").val();
+		var description = $("#description").val();
+		var myform = document.getElementById("myform");
+
+		  var formdata = new FormData();
+		  formdata.append('name', name);
+		  formdata.append('email', email);
+		  formdata.append('phone', phone);
+		  formdata.append('description', description);
+		  console.log(formdata);
+
+		  $.ajax({
+			url : 'http://localhost/buddy/api/v1/user/contactus',
+			type : 'POST',
+			data : formdata,
+			processData: false,
+			contentType: false,
+			beforeSend : function() {
+
+			},
+			success : function(data) {
+
+				console.log(data);
+				
+			},
+			error : function(err) {
+
+				console.log(err);
+				
+			}
+		});
+	});
+	
+	
+</script>
