@@ -27,7 +27,6 @@
 	<script type="text/javascript" src="assets/js/function.js"></script>
   	<!-- Home page banner particals -->
 	<script src="assets/js/particles.js"></script>
-	<script src="assets/js/app-particles.js"></script>
 	<!-- Page item move on loard -->
 	<script src="assets/js/waypoints.min.js"></script>
 	<!-- jquery Ui js -->
