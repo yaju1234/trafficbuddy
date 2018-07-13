@@ -28,12 +28,7 @@
 							<textarea name="" id="description" cols="30" rows="10" placeholder="Enquery" required></textarea>
 						</li>
 						<li class="scrollimation fade-right d4">
-<<<<<<< HEAD
 						<button id="btn">Submit</button>
-							
-=======
-							<input type="button" name="" id="" value="Verzenden">
->>>>>>> 600a72bc8cf216ca12a0c3eb6980d1e2a2038158
 						</li>
 					</ul>
 				</div>
@@ -67,7 +62,7 @@ $('#btn').click(function() {
 		  formdata.append('email', email);
 		  formdata.append('phone', phone);
 		  formdata.append('description', description);
-		  console.log(formdata);
+		 
 
 		  $.ajax({
 			url : 'http://localhost/buddy/api/v1/user/contactus',
@@ -81,6 +76,10 @@ $('#btn').click(function() {
 			success : function(data) {
 
 				console.log(data);
+				var priority = 'success';
+				var title    = 'Success';
+				var message  = 'It worked!';
+				$.toaster({ priority : priority, title : title, message : message });
 				
 			},
 			error : function(err) {
