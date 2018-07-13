@@ -28,7 +28,7 @@
 							<textarea name="" id="" cols="30" rows="10" placeholder="Enquery"></textarea>
 						</li>
 						<li class="scrollimation fade-right d4">
-							<input type="submit" name="" id="" value="Verzenden">
+							<input type="button" name="" id="" value="Verzenden">
 						</li>
 					</ul>
 				</div>
