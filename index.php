@@ -3,14 +3,12 @@
 	<!-- BANNER PART -->
 	<div class="banner" style="background-image: url(assets/images/banner-bg.jpg);">
 		<div id="particles-js"></div>
-		<div class="container">
-			<div class="row">
-				<div class="text">
-					<h3 class="scrollimation fade-right">get app that makes your life easier</h3>
-					<p class="scrollimation fade-right d1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, placeat itaque unde. Ut ipsum recusandae pariatur eum quis quia et, nemo, non, perferendis repudiandae impedit magni. Repellat at, repudiandae quasi.</p>
-				</div>
-				<div class="image scrollimation fade-left"><img src="assets/images/banner_img.png" alt=""></div>
+		<div class="row">
+			<div class="text">
+				<h3 class="scrollimation fade-right">get app that makes your life easier</h3>
+				<p class="scrollimation fade-right d1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, placeat itaque unde. Ut ipsum recusandae pariatur eum quis quia et, nemo, non, perferendis repudiandae impedit magni. Repellat at, repudiandae quasi.</p>
 			</div>
+			<div class="image scrollimation fade-left"><img src="assets/images/banner_img.png" alt=""></div>
 		</div>
 	</div>
 

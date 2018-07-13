@@ -10,9 +10,12 @@
 	<link rel="stylesheet" href="assets/css/style.css">
     <!-- waypoints.css -->
     <link href="assets/css/waypoints.css" rel="stylesheet">
+
+    <link href="assets/css/toastr.min.css" rel="stylesheet"/>
 	<!-- JQUERy LIBRARY -->
 	<script type="text/javascript" src="assets/js/jquery-2.2.4.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.toaster.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
 	<!-- <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 </head> -->
 
