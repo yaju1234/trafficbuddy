@@ -2,7 +2,7 @@
 
 	<!-- INNER BANNER -->
 	<div class="inner-banner" >
-		<img src="assets/images/works.jpg" alt="">
+		<img src="assets/images/banner-terms-condition.jpg" alt="">
 	</div>
 
 	<!-- SUPPORT -->
