@@ -8,8 +8,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i|Oswald:300,400,500,600,700" rel="stylesheet">
 	<!-- CUSTON STYLE.CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
-    <!-- waypoints.css -->
-    <link href="assets/css/waypoints.css" rel="stylesheet">
+
+	<!-- OWL CAROUSAL -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
 	<!-- JQUERy LIBRARY -->
 	<script type="text/javascript" src="assets/js/jquery-2.2.4.js"></script>
 	<!-- <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
@@ -19,13 +22,13 @@
 	<!-- HEADER -->
 	<header id="header" class="header">
 		<div class="container">
-			<div class="logo scrollimation fade-right">
+			<div class="logo">
 				<a href="index.php" title="">
 					<img src="assets/images/logo.png" alt="">
 				</a>
 			</div>
 			<div class="right-header">
-				<nav class="navbar scrollimation fade-left">
+				<nav class="navbar">
 					<ul>
 						<li><a href="index.php">home</a></li>
 						<li><a href="how-it-works.php">how it works</a></li>
@@ -34,14 +37,14 @@
 					</ul>
 				</nav>
 				<div class="app-btn-set">
-	                <a href="#" class="g-store store-btn scrollimation fade-left d2">
+	                <a href="#" class="g-store store-btn">
 	                  <em>avilable on</em>
 	                  <span>Google Store</span>
 	                </a>
-	                <a href="#" class="a-store store-btn scrollimation fade-left d3">
+	                <!-- <a href="#" class="a-store store-btn">
 	                  <em>avilable on</em>
 	                  <span>Apple Store</span>
-	                </a>
+	                </a> -->
               	</div>
 			</div>
 		</div>

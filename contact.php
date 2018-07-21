@@ -8,38 +8,38 @@
 	<!-- CONTACT US -->
 	<div class="section contact">
 		<div class="container">
-			<h2 class="scrollimation scale-in">contact us</h2>
-			<p class="sub-heading scrollimation fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h2>contact us</h2>
+			<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			<div class="contact-form">
 				<div class="send-message">
-					<h3 class="scrollimation fade-left">e-mail us</h3>
+					<h3>e-mail us</h3>
 					<ul class="contact-list">
-						<li class="scrollimation fade-right d1">
+						<li>
 							<input type="text" name="" id="name" placeholder="Your Name" required>
 						</li>
-						<li class="scrollimation fade-right d2">
+						<li>
 							<input type="text" name="" id="email" placeholder="Email ID" required>
 						</li>
-						<li class="scrollimation fade-right d2">
+						<li>
 							<input type="text" name="" id="phone" placeholder="Phone Number" required>
 						</li>
-						<li class="scrollimation fade-right d3">
+						<li>
 							<textarea name="" id="description" cols="30" rows="10" placeholder="Enquery" required></textarea>
 						</li>
-						<li class="scrollimation fade-right d4">
-						<button id="btn">Submit</button>
+						<li>
+							<button id="btn">Submit</button>
 						</li>
 					</ul>
 				</div>
 				<div class="contact-via">
 					<div class="block call-us">
-						<h3 class="scrollimation fade-right">call us</h3>
-						<p  class="scrollimation fade-left">Tel. <strong>+83 9809768743</strong></p>
+						<h3>call us</h3>
+						<p>Tel. <strong>+83 9809768743</strong></p>
 					</div>
 					<div class="block location">
-						<h3 class="scrollimation fade-right">reach us</h3>
-						<p class="scrollimation fade-left">3131  St. John Street<br>Abernethy<br>Saskatchewan</p>
+						<h3>reach us</h3>
+						<p>3131  St. John Street<br>Abernethy<br>Saskatchewan</p>
 					</div>
 				</div>
 			</div>

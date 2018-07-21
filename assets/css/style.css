@@ -12,13 +12,13 @@ a {  font-family: 'Open Sans', sans-serif; color: #07b1e9; text-decoration: none
 a:hover { text-decoration: none; }
 
 /* ----------------------------------------------------------- HEADINGS */
-h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: 400; }
 h1 { font-family: 'Oswald', sans-serif; font-size: 45px; color: #fff; font-weight: 400; line-height: 52px; text-transform: none; text-transform: uppercase; }
-h2 { font-family: 'Oswald', sans-serif; font-size: 40px; color: #444444; font-weight: 700; line-height: 46px; text-transform: none; text-transform: uppercase; margin: 0px 0px 15px; }
+h2 { font-family: 'Oswald', sans-serif; font-size: 36px; line-height: 42px; color: #111; font-weight: 400; text-transform: capitalize; margin: 0px 0px 15px; }
 h3 { font-family: 'Oswald', sans-serif; font-size: 30px; line-height: 36px; color: #333333; font-weight: 400; text-transform: capitalize; margin: 0px 0px 15px; }
-h4 { font-family: 'Open Sans', sans-serif; font-size: 24px; line-height: 30px; color: #333333; text-transform: capitalize; }
+h4 { font-family: 'Open Sans', sans-serif; font-size: 22px; line-height: 28px; color: #333333; }
 h5 { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 26px; color: #333333; text-transform: uppercase; font-weight: 700; }
-h6 { }
+h6 { font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 22px; color: #111; text-transform: capitalize; }
 
 /*-------------------------------------------------- PADDING */
 .pad5 { padding: 5px 0; }
@@ -64,27 +64,20 @@ input[type=text], input[type=password] { outline: none; color: #666; }
 ::-moz-placeholder { opacity: 1; }
 :-ms-input-placeholder { opacity: 1; }
 
-/*------------------------------------------------------- CONTAINER */
-.container { max-width: 1320px; margin: 0 auto; padding: 0 15px; position: relative; z-index: 3; }
-.container:after { content: ""; display: table; clear: both; }
-.btn { display: inline-block; vertical-align: top; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; font-weight: 400; padding: 10px 40px; border-radius: 20px; border: none; }
-.btn.large { padding: 15px 50px; border-radius: 0px; font-size: 16px; line-height: 22px; }
-.btn:hover { }
-
 
 
 /* =======================================================
 CSS FOR THE PROJECT STARTS HERE
 ======================================================= */
 
-/* -----PAGE LOADER----- */
-.no-js #loader { display: none; }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url('../images/page-loader.gif') center no-repeat #fff; }
+.container { max-width: 1320px; margin: 0 auto; padding: 0 15px; position: relative; z-index: 3; }
+.container:after { content: ""; display: table; clear: both; }
+.btn { display: inline-block; vertical-align: top; font-size: 14px; line-height: 20px; color: #fff; text-transform: uppercase; font-weight: 400; padding: 10px 40px; border-radius: 20px; border: none; }
+.btn:hover { }
 
 
 /* -----HEADER PART START----- */
-.header { position: absolute; z-index: 9; width: 100%; padding: 20px 0px; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
+.header { position: absolute; width: 100%; padding: 10px 0px; /* background-color: rgba(16, 154, 245, 0.2); */ z-index: 21; }
 .header .logo { float: left; }
 .header .right-header { float: right; }
 .header nav { float: left; margin-top: 24px; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
@@ -95,8 +88,8 @@ CSS FOR THE PROJECT STARTS HERE
 .header nav ul li a { font-size: 16px; line-height: 22px; color: #fff; text-transform: capitalize; font-weight: 600; }
 .header nav ul li a:hover { color: #109af5; }
 
-.header .app-btn-set { float: right; margin-top: 17px; -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
-.store-btn { font-size: 12px; padding: 5px 12px 5px 40px; letter-spacing: 1.5px; font-weight: 600; border: none; -webkit-transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s; display: inline-block; text-decoration: none; background-color: #fff; position: relative; color: #111; background-repeat: no-repeat; background-position: 12px 7px; border-radius: 5px; margin-right: 20px; }
+.header .app-btn-set { float: right; margin-top: 17px; }
+.store-btn { font-size: 12px; padding: 5px 12px 5px 40px; letter-spacing: 1.5px; font-weight: 600; border: none; display: inline-block; text-decoration: none; background-color: #fff; position: relative; color: #111; background-repeat: no-repeat; background-position: 12px 7px; border-radius: 5px; margin-right: 20px; }
 .store-btn:last-child { margin-right: 0px; }
 .store-btn.g-store { background-image: url('../images/google-play.png'); }
 .store-btn.a-store { background-image: url('../images/apple-store.png'); }
@@ -104,32 +97,42 @@ CSS FOR THE PROJECT STARTS HERE
 .store-btn span { font-size: 14px; font-weight: 600; display: block; line-height: 16px; pointer-events: none; }
 .store-btn:hover { background-color: #109af5; color: #fff; background-position: 12px -33px; }
 
-.header .container { -webkit-transition: all 0.6s ease; -moz-transition: all 0.6s ease; -ms-transition: all 0.6s ease; -o-transition: all 0.6s ease; transition: all 0.6s ease; }
-.header.fixed { position: fixed; background-color: rgba(1, 64, 108, 1); padding: 6px 0px; }
-.header.fixed .container { max-width: 100%; }
-.header.fixed .logo img { max-width: 40px; }
-.header.fixed nav { margin-top: 9px; }
-.header.fixed .app-btn-set { margin-top: 3px; }
-
 
 /* -----BANNER PART----- */
-.banner { background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  position: relative; padding: 150px 0px 0px; margin: 0px 0px 20px; }
-#particles-js { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0.8; z-index: 2; }
-.banner .row { -webkit-display: flex; display: flex; -webkit-flex-flow: row wrap; flex-flow: row wrap; justify-content: space-between; align-items: center; position: relative; z-index: 4; }
-.banner .row .text { width: 40%; padding-left: 10%; }
-.banner a.logo { display: inline-block; vertical-align: top; }
-.banner h3 { color: #fff; margin: 25px 0px 15px; }
+.banner { background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  position: relative; padding: 90px 0px 0px; }
+.banner:before { content: ""; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-image: url('../images/banner-pattern.png'); background-repeat: repeat; background-position: left top; z-index: 2; }
+.banner .text { padding: 150px 0px; position: relative; z-index: 3;  }
+.banner .text .text-block { width: 45%; text-align: right; float: right; }
+.banner h3 { font-size: 36px; line-height: 42px; color: #fff; margin: 0px 0px 25px; }
 .banner p { color: #fff; }
-.banner .row .image { width: 60%; position: relative; text-align: right; }
-.banner .row .image img { max-width: 100%; }
+
+.testimonials { background-color: rgba(16, 154, 245, 0.2); padding: 30px; position: relative; z-index: 3; }
+.testimonials figure { display: inline-block; vertical-align: middle; width: 120px; height: 120px; border: 5px solid #fff; border-radius: 50%; margin-right: 30px; }
+.testimonials figure img { width: 100%; height: 100%; border-radius: 50%; }
+.testimonials .block { display: inline-block; vertical-align: middle; width: calc(100% - 155px); font-size: 20px; line-height: 30px; color: #fff; }
+.testimonials .block span { font-size: 60px; display: inline-block; vertical-align: top; position: relative; }
+.testimonials .block span.quote-right { top: 7px; }
+.testimonials .block h6 { color: #fff; margin: 10px 0px 0px; }
+.testimonials .owl-nav.disabled + .owl-dots { display: none; }
 
 
 /* -----INDEX PAGE STARTS----- */
 .section { padding: 70px 0px; text-align: center; }
-p.sub-heading { text-align: center; margin: 0px auto 20px; font-size: 18px; line-height: 28px; font-weight: 300; }
+p.sub-heading { text-align: center; max-width: 1000px; margin: 0px auto 20px; font-size: 18px; line-height: 28px; font-weight: 400; }
 
+
+/* -----PROCESS----- */
+.process {  }
+.process ul { display: block; margin: 40px 0px 0px; }
+.process ul:after { content: ""; display: table; clear: both; }
+.process ul li { float: left; width: 30%; margin-right: 5%; }
+.process ul li:nth-child(3n) { margin-right: 0px; }
+.process h6 { color: #999; font-style: italic; margin: 0px 0px 20px; }
+.process h4 { margin: 20px 0px 10px; }
+.process img { max-width: 100%; -webkit-box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2); -ms-box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2); -o-box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2); box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.2); border-radius: 21px;
 
 /* -----VIDEO TUTORIAL----- */
+.tutorial { background-color: #f6f6f6; }
 .tutorial .video { width: 900px; height: 450px; margin: 50px auto 0px; }
 .tutorial .video iframe { width: 100%; height: 100%; }
 
