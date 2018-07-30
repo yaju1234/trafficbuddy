@@ -5,8 +5,8 @@
 		<div class="text">
 			<div class="container">
 				<div class="text-block">
-					<h3>Got A Traffic Ticket? Fight it Hassle Free!</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, placeat itaque unde. Ut ipsum recusandae pariatur eum quis quia et, nemo, non, perferendis repudiandae impedit magni. Repellat at, repudiandae quasi.</p>
+					<h3>At Traffic Ticket Buddy, we work hard to protect your rights!</h3>
+					<p>A traffic ticket is a notice issued by a law enforcement official to a motorist or other road user, indicating that the user has violated traffic laws. Using Traffic Ticket Buddy we can solve your ticket with hassle-free.</p>
 				</div>
 			</div>
 		</div>
@@ -17,36 +17,27 @@
 						<figure><img src="assets/images/user1.jpg" alt=""></figure>
 						<div class="block">
 							<span class="quote-left"><img src="assets/images/quote-left.png" alt=""></span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur quod blanditiis maxime in sit aliquid ab sint temporibus provident! Dolor neque sint exercitationem dolorum, ipsum doloribus quo reprehenderit perspiciatis.
+							Traffic Ticket provides exceptional service for a very reasonable rate. Furthermore, once the service is complete, they stay with you to make sure that things run smoothly.
 							<span class="quote-right"><img src="assets/images/quote-right.png" alt=""></span>
-							<h6>-Jhon Doe</h6>
+							<h6>-Connor Austen</h6>
 						</div>
 					</div>
 					<div class="item">
 						<figure><img src="assets/images/user2.jpg" alt=""></figure>
 						<div class="block">
 							<span class="quote-left"><img src="assets/images/quote-left.png" alt=""></span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, consequuntur quod blanditiis maxime in sit aliquid ab sint temporibus provident! Dolor neque sint exercitationem dolorum.
+							I don't know if I've told you lately how much I love Traffic Ticket Buddy. I love that and also I recommend my friend and relatives to use that when they got a traffic ticket.
 							<span class="quote-right"><img src="assets/images/quote-right.png" alt=""></span>
-							<h6>-Jhon Doe</h6>
+							<h6>-Antoine William</h6>
 						</div>
 					</div>
 					<div class="item">
 						<figure><img src="assets/images/user3.jpg" alt=""></figure>
 						<div class="block">
 							<span class="quote-left"><img src="assets/images/quote-left.png" alt=""></span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum doloribus quo reprehenderit perspiciatis.
+							Traffic Ticket Buddy has been more than a great service provider; they have been a truly responsive to solve your traffic ticket in timely and cost effective manner.
 							<span class="quote-right"><img src="assets/images/quote-right.png" alt=""></span>
-							<h6>-Jhon Doe</h6>
-						</div>
-					</div>
-					<div class="item">
-						<figure><img src="assets/images/user4.jpg" alt=""></figure>
-						<div class="block">
-							<span class="quote-left"><img src="assets/images/quote-left.png" alt=""></span>
-							Consequuntur quod blanditiis maxime in sit aliquid ab sint temporibus provident! Dolor neque sint exercitationem dolorum, ipsum doloribus quo reprehenderit perspiciatis.
-							<span class="quote-right"><img src="assets/images/quote-right.png" alt=""></span>
-							<h6>-Jhon Doe</h6>
+							<h6>-Blake Smith</h6>
 						</div>
 					</div>
 				</div>
@@ -57,7 +48,7 @@
 	<div class="section process">
 		<div class="container">
 			<h2>Got A Traffic Ticket? Fight it Hassle Free!</h2>
-			<p class="sub-heading">Fighting your ticket is as easy as 1, 2, 3!</p>
+			<h6 class="sub-heading">Fighting your ticket is as easy as 1, 2, 3!</h6>
 			<ul>
 				<li>
 					<h6>Step 1</h6>
@@ -67,13 +58,13 @@
 				</li>
 				<li>
 					<h6>Step 2</h6>
-					<img src="assets/images/step-1.png" alt="">
+					<img src="assets/images/step-2.png" alt="">
 					<h4>Get offers from Professional Lawyers and Paralegals</h4>
 					<p>After submitting, lawyers or paralegals in the area will get notified with details of your ticket and will choose to bid on the ticket with a guarantee of reducing fines, points or both!</p>
 				</li>
 				<li>
 					<h6>Step 3</h6>
-					<img src="assets/images/step-1.png" alt="">
+					<img src="assets/images/step-3.png" alt="">
 					<h4>Accept and Save Money</h4>
 					<p>When you accept a bid, you are now provided details to contact the lawyer in order to get the best possible outcome.</p>
 				</li>
@@ -85,7 +76,7 @@
 	<div class="section tutorial">
 		<div class="container">
 			<h2>video tutorial</h2>
-			<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<h6 class="sub-heading">If you have a traffic ticket or warrant out of in your state or GC Services has sent you a letter charging you a big fine or your license is suspended because of a traffic ticket and you need help clearing it up, feel free to call us for a free legal consultation within our business hours. We will answer all of your questions and offer advice on how to fix your traffic ticket problem.</h6>
 			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/H-1Ab30_rrM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
@@ -94,37 +85,40 @@
 
 	<!-- MAIN FEATURES -->
 	<div class="features">
-		<ul>
-			<li>
-				<img src="assets/images/icon-traffic.png" alt="">
-				<h3>got a ticket for traffic violance !</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam vero doloremque ducimus possimus natus aliquam!</p>
-			</li>
-			<li>
-				<img src="assets/images/icon-anchor.png" alt="">
-				<h3>warried how to manage !</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam vero doloremque ducimus possimus natus aliquam!</p>
-			</li>
-			<li>
-				<img src="assets/images/icon-lawyer.png" alt="">
-				<h3>choose your lawyar as you want !</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam vero doloremque ducimus possimus natus aliquam!</p>
-			</li>
-			<li>
-				<img src="assets/images/icon-conversation.png" alt="">
-				<h3>get all updates just on a click !</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam vero doloremque ducimus possimus natus aliquam!</p>
-			</li>
-		</ul>
-	</div>
-
-	<!-- TEXT BLOCK -->
-	<div class="section">
 		<div class="container">
-			<h2>Lorem ipsum dolor sit</h2>
-			<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>Features</h3>
+			<ul>
+				<li>
+					<img src="assets/images/icon-efficient.png" alt="">
+					<h5>More Efficient</h5>
+					<p>Fight your ticket in no time. Just snap, submit and save.</p>
+				</li>
+				<li>
+					<img src="assets/images/icon-convinient.png" alt="">
+					<h5>Convinient</h5>
+					<p>Save time and money by not having to attend court personally. Your lawyer will handle it.</p>
+				</li>
+				<li>
+					<img src="assets/images/icon-save-money.png" alt="">
+					<h5>Saves Money</h5>
+					<p>Your experienced lawyer will minimize your fines, and prevent your insurance from jumping.</p>
+				</li>
+				<li>
+					<img src="assets/images/icon-helpt.png" alt="">
+					<h5>Easy Professional Help</h5>
+					<p>Get easy reliable help at the touch of your fingertips.</p>
+				</li>
+				<li>
+					<img src="assets/images/icon-transparency.png" alt="">
+					<h5>Full Transperency</h5>
+					<p>No need to worry about anything. Our platform ensures full transparency between both parties.</p>
+				</li>
+				<li>
+					<img src="assets/images/icon-no-third-party.png" alt="">
+					<h5>No Third Parties</h5>
+					<p>There is no middle man. Just you and your lawyer.</p>
+				</li>
+			</ul>
 		</div>
 	</div>
 

@@ -1,6 +1,7 @@
 $(document).ready(function(){
   jqueryUI();
   owlcarousal();
+  uploadFile();
 });
 
 
@@ -25,6 +26,20 @@ function owlcarousal() {
       margin:0,
       autoplay:true,
       }
+    }
+  });
+}
+
+//Upload File For Contact Field
+function uploadFile() {
+  $("[type=file]").on("change", function(){
+    // Name of file and placeholder
+    var file = this.files[0].name;
+    var dflt = $(this).attr("placeholder");
+    if($(this).val()!=""){
+      $(this).next().text(file);
+    } else {
+      $(this).next().text(dflt);
     }
   });
 }

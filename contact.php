@@ -1,46 +1,88 @@
 <?php include('include/header.php') ?>
 
-<!-- INNER BANNER -->
-<div class="inner-banner" >
-	<img src="assets/images/banner-contact-us.jpg" alt="">
-</div>
+	<!-- INNER BANNER -->
+	<div class="inner-banner" >
+		<img src="assets/images/banner-contact-us.jpg" alt="">
+		<div class="caption">
+			<h2>Contact us</h2>
+		</div>
+	</div>
 
 
-	<!-- CONTACT US -->
-	<div class="section contact">
+	<!-- CONTACT SECTION -->
+	<div class="section contact-section">
 		<div class="container">
-			<h2>contact us</h2>
-			<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			<div class="contact-form">
-				<div class="send-message">
-					<h3>e-mail us</h3>
-					<ul class="contact-list">
-						<li>
-							<input type="text" name="" id="name" placeholder="Your Name" required>
-						</li>
-						<li>
-							<input type="text" name="" id="email" placeholder="Email ID" required>
-						</li>
-						<li>
-							<input type="text" name="" id="phone" placeholder="Phone Number" required>
-						</li>
-						<li>
-							<textarea name="" id="description" cols="30" rows="10" placeholder="Enquery" required></textarea>
-						</li>
-						<li>
-							<button id="btn">Submit</button>
-						</li>
-					</ul>
+				<ul>
+					<li>
+						<div class="block"><input type="text" name="" placeholder="First Name"></div>
+						<div class="block"><input type="text" name="" placeholder="Last Name"></div>
+					</li>
+					<li>
+						<div class="block"><input type="text" name="" placeholder="Phone"></div>
+						<div class="block"><input type="email" name="" placeholder="Email"></div>
+					</li>
+					<li>
+						<div class="block">
+							<input id="file1" type="file" placeholder="Add profile picture" />
+  							<label for="file1">Upload Driving Licence</label>
+						</div>
+						<div class="block">
+							<input id="file2" type="file" placeholder="Add profile picture" />
+  							<label for="file2">Upload Font Side Ticket</label>
+						</div>
+					</li>
+					<li>
+						<div class="block">
+							<input id="file3" type="file" placeholder="Add profile picture" />
+  							<label for="file3">Upload Rare Side Ticket</label>
+						</div>
+						<div class="block">
+							<select name="" id="">
+								<option value="">Select Country</option>
+								<option value="">Canada</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<div class="block">
+							<select name="" id="">
+								<option value="">Select State</option>
+								<option value="">Alberta</option>
+								<option value="">British Columbia</option>
+							</select>
+						</div>
+						<div class="block">
+							<select name="" id="">
+								<option value="">Select City</option>
+								<option value="">Victoria</option>
+								<option value="">Edmonton</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<textarea name="" placeholder="Description"></textarea>
+					</li>
+					<li>
+						<input type="button" name="" value="Send Message" class="btn">
+					</li>
+				</ul>
+			</div>
+			<div class="contact-details">
+				<div class="block">
+					<img src="assets/images/icon-location.png" alt="">
+					<h6>Address</h6> 
+					<p>3131 St. John Street<br>Abernethy, Saskatchewan</p>
 				</div>
-				<div class="contact-via">
-					<div class="block call-us">
-						<h3>call us</h3>
-						<p>Tel. <strong>+83 9809768743</strong></p>
-					</div>
-					<div class="block location">
-						<h3>reach us</h3>
-						<p>3131  St. John Street<br>Abernethy<br>Saskatchewan</p>
-					</div>
+				<div class="block">
+					<img src="assets/images/icon-phone.png" alt="">
+					<h6>Call Us</h6>
+					<p><a href="javascript:void(0)" title="">+83 9809768743 </a></p>
+				</div>
+				<div class="block">
+					<img src="assets/images/icon-envalop.png" alt="">
+					<h6>Mail Us</h6>
+					<p><a href="javascript:void(0)" title="">support@trafficbuddy.com</a></p>
 				</div>
 			</div>
 		</div>
