@@ -15,7 +15,7 @@
 		<div class="inner-banner" >
 			<img src="assets/images/banner-terms-condition.jpg" alt="">
 			<div class="caption">
-				<h2>terms & condition</h2>
+				<h2>terms &amp; condition</h2>
 			</div>
 		</div>
 
@@ -80,7 +80,7 @@
 				<p>We strive to maintain the safety of your information. For example, your information is transmitted via <mark>Secure Socket Layer (SSL) technology</mark> and access to your account information requires a personal identifier unique to you.</p>
 				<p>Unfortunately, no internet-based service is completely secure. We cannot guarantee that any confidential or Personally Identifiable Information you share while using Trafficticketbuddy is maintained at adequate levels of protection to meet your specific needs or obligations. We assume no responsibility for unauthorized access to your information.</p>
 				<h6>How Do I Deactivate My Trafficticketbuddy Account?</h6>
-				<p>Should you ever decide to deactivate your <em>Trafficticketbuddy</em> account, you may do so by emailing us at <a href="javascript:void(0)">support@Trafficticketbuddy.ca</a>. Upon deactivation, you will no longer be able to access your account, including any pending or completed agreements. Your information and data will remain on Trafficticketbuddy'S secure servers.</p>
+				<p>Should you ever decide to deactivate your <em>Trafficticketbuddy</em> account, you may do so by emailing us at <a href="javascript:void(0)">trafficTicketBuddy@gmail.com</a>. Upon deactivation, you will no longer be able to access your account, including any pending or completed agreements. Your information and data will remain on Trafficticketbuddy'S secure servers.</p>
 				<h6>The Trafficticketbuddy Policy Towards Children</h6>
 				<p>Per our Terms of Service, <em>Trafficticketbuddy</em> is intended only for users 18 and above. <em>Trafficticketbuddy</em> does not knowingly collect Personally Identifiable Information from minor children under the age of 13.</p>
 				<h6>Changes to the Trafficticketbuddy Privacy Policy</h6>
@@ -88,7 +88,7 @@
 				<h6>The Trafficticketbuddy Terms of Service</h6>
 				<p>Please also visit Trafficticketbuddy'S Terms of Service establishing the terms, disclaimers and limitations of liability governing your use of Trafficticketbuddy.</p>
 				<h6>Contacting Trafficticketbuddy</h6>
-				<p>If you have any questions about our privacy policy or practices you can contact us at <a href="javascript:void(0)">support@Trafficticketbuddy.ca</a>.</p>
+				<p>If you have any questions about our privacy policy or practices you can contact us at <a href="javascript:void(0)">trafficTicketBuddy@gmail.com</a>.</p>
 			</div>
 		</div>
 	</body>

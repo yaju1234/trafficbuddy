@@ -12,30 +12,25 @@
 			<div class="block">
 				<h5>contact us</h5>
 				<ul class="f-contact">
-					<li class="location">
-						3131 St. John Street<br>Abernethy<br>Saskatchewan
-					</li>
-					<li class="call">
-						<a href="javascript:void(0)">
-							+83 9809768743
-						</a>
-					</li>
 					<li class="mail">
 						<a href="javascript:void(0)">
-							support@trafficbuddy.com
+							trafficTicketBuddy@gmail.com
 						</a>
 					</li>
 				</ul>
-			</div>
-			<div class="block last-block">
-				<h5>Find us on</h5>
-				<ul>
+				<ul class="social">
 					<li class="facebook"><a href="javascript:void(0)" title=""></a></li>
 					<li class="twitter"><a href="javascript:void(0)" title=""></a></li>
 					<li class="youtube"><a href="javascript:void(0)" title=""></a></li>
 				</ul>
+			</div>
+			<div class="block">
+				<h5>&nbsp;</h5>
 				<p>&copy; 2018 TRAFFIC BUDDY. All Rights Reserved.</p>
-				<p><a href="terms-conditions.php">Terms Conditions &amp; Privacy Statement</a></p>
+				<ul class="terms-condition">
+					<li><a href="terms-conditions.php">Terms and Conditions</a></li>
+					<li><a href="privacy-policy.php">Privacy Statement</a></li>
+				</ul>
 			</div>
 		</div>
 	</footer>

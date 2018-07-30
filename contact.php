@@ -12,6 +12,9 @@
 	<!-- CONTACT SECTION -->
 	<div class="section contact-section">
 		<div class="container">
+			<div class="contact-details">
+				If you have any further questions, please don’t hesitate to contact us. Please feel free to email us by the given email address <a href="javascript:void(0)" title="">trafficTicketBuddy@gmail.com</a>
+			</div>
 			<div class="contact-form">
 				<ul>
 					<li>
@@ -67,23 +70,6 @@
 						<input type="button" name="" value="Send Message" class="btn">
 					</li>
 				</ul>
-			</div>
-			<div class="contact-details">
-				<div class="block">
-					<img src="assets/images/icon-location.png" alt="">
-					<h6>Address</h6> 
-					<p>3131 St. John Street<br>Abernethy, Saskatchewan</p>
-				</div>
-				<div class="block">
-					<img src="assets/images/icon-phone.png" alt="">
-					<h6>Call Us</h6>
-					<p><a href="javascript:void(0)" title="">+83 9809768743 </a></p>
-				</div>
-				<div class="block">
-					<img src="assets/images/icon-envalop.png" alt="">
-					<h6>Mail Us</h6>
-					<p><a href="javascript:void(0)" title="">support@trafficbuddy.com</a></p>
-				</div>
 			</div>
 		</div>
 	</div>
