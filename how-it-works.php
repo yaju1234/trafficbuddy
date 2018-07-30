@@ -11,7 +11,6 @@
 	<!-- HOW ITS WORK -->
 	<div class="section how-its-work">
 		<div class="container">
-			<h2>how it works</h2>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-1.png" alt=""></div>
 				<div class="app"><h5>client</h5></div>
@@ -50,7 +49,7 @@
 			</div>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-5.png" alt=""></div>
-				<div class="app"><h5>client</h5></div>
+				<div class="app"><h5>Lawyer</h5></div>
 				<div class="description">
 					<h6>5th Step&nbsp;-</h6>
 					<h4>Confirm a Lawyer For Tirafic Ticket.</h4>
