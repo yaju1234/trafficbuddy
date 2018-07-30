@@ -7,13 +7,14 @@
 			<h2>how it works</h2>
 		</div>
 	</div>
+
+	<!-- HOW ITS WORK -->
 	<div class="section how-its-work">
 		<div class="container">
 			<h2>how it works</h2>
-			<h6 class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-1.png" alt=""></div>
+				<div class="app"><h5>client</h5></div>
 				<div class="description">
 					<h6>1st Step&nbsp;-</h6>
 					<h4>File a new case</h4>
@@ -22,6 +23,7 @@
 			</div>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-2.png" alt=""></div>
+				<div class="app"><h5>client</h5></div>
 				<div class="description">
 					<h6>2nd Step&nbsp;-</h6>
 					<h4>Send your ticket and driving licence</h4>
@@ -30,6 +32,7 @@
 			</div>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-3.png" alt=""></div>
+				<div class="app"><h5>Lawyer</h5></div>
 				<div class="description">
 					<h6>3rd Step&nbsp;-</h6>
 					<h4>Lawyer or paralegals bid on Traffic Ticket</h4>
@@ -38,6 +41,7 @@
 			</div>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-4.png" alt=""></div>
+				<div class="app"><h5>client</h5></div>
 				<div class="description">
 					<h6>4th Step&nbsp;-</h6>
 					<h4>Chose lawyer or paralegals</h4>
@@ -46,6 +50,7 @@
 			</div>
 			<div class="row">
 				<div class="screen"><img src="assets/images/img-mobile-5.png" alt=""></div>
+				<div class="app"><h5>client</h5></div>
 				<div class="description">
 					<h6>5th Step&nbsp;-</h6>
 					<h4>Confirm a Lawyer For Tirafic Ticket.</h4>

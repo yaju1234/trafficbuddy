@@ -24,7 +24,7 @@
 			<div class="container">
 				<h2>terms and condition</h2>
 				<h5>Protecting your personal information is our top priority.</h5>
-				<p>This Privacy Policy applies to the products and services of <a href="http://trafficticketbuddy.ca/" target="_blank">trafficticketbuddy.ca</a> (“Trafficticketbuddy,” “TTB,” “we,” “us,” or “our,” for the rest of this agreement) on all platforms and mediums (including the website Trafficticketbuddy.Ca, our mobile website, apps, emails, and agreements generated using Trafficticketbuddy). We are only an intermediary and will not be responsible for anything in the course of this service. By using Trafficticketbuddy, you consent to this Policy.</p>
+				<p>This Privacy Policy applies to the products and services of <em>Trafficticketbuddy.ca</em> (“Trafficticketbuddy,” “TTB,” “we,” “us,” or “our,” for the rest of this agreement) on all platforms and mediums (including the website Trafficticketbuddy.Ca, our mobile website, apps, emails, and agreements generated using Trafficticketbuddy). We are only an intermediary and will not be responsible for anything in the course of this service. By using Trafficticketbuddy, you consent to this Policy.</p>
 				<h6>Collection Of Your Personal Information</h6>
 				<p>The information <em>Trafficticketbuddy</em> collects about you can be described as either “personally identifiable” or “non-personally identifiable.”</p>
 				<p><span>Personally Identifiable Information –</span> When registering for <em>Trafficticketbuddy</em> service, and creating your legal documents using the <em>Trafficticketbuddy</em> application, you provide us with personal information that is unique to you alone (“Personally Identifiable Information”), including but not limited to:</p>
