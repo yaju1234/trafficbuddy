@@ -7,9 +7,28 @@
 	<title>Trafficticketbuddy</title>
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 	<!-- CUSTON STYLE.CSS -->
+	<!-- CUSTON STYLE.CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/toastr.min.css">
+	<!-- OWL CAROUSAL -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+	<!-- JQUERy LIBRARY -->
+	<script type="text/javascript" src="assets/js/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.toaster.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
 </head>
 <body>
+
+<?php 
+$val = "";
+ if($_POST['success']=="1"){
+	$val = "1";
+ }else{
+	$val = "0";
+ }
+ ?>
 	<!-- INNER BANNER -->
 	<div class="inner-banner" >
 		<img src="assets/images/banner-contact-us.jpg" alt="">
@@ -19,71 +38,71 @@
 	</div>
 
 	<!-- CONTACT SECTION -->
-	<div class="section contact-section">
+		<div class="section contact-section">
 		<div class="container">
 			<div class="contact-details">
 				If you have any further questions, please don’t hesitate to contact us. Please feel free to email us by the given email address <a href="javascript:void(0)" title="">trafficTicketBuddy@gmail.com</a>
 			</div>
+			<form action="submit.php" method="POST" enctype="multipart/form-data">
 			<div class="contact-form">
 				<ul>
 					<li>
-						<div class="block"><input type="text" name="" placeholder="First Name"></div>
-						<div class="block"><input type="text" name="" placeholder="Last Name"></div>
+					<input type="hidden" name="val" value="contact-mobile.php">
+						<div class="block"><input type="text" name="fname" placeholder="First Name"></div>
+						<div class="block"><input type="text" name="lname" placeholder="Last Name"></div>
 					</li>
 					<li>
-						<div class="block"><input type="text" name="" placeholder="Phone"></div>
-						<div class="block"><input type="email" name="" placeholder="Email"></div>
+						<div class="block"><input type="text" name="phone" placeholder="Phone"></div>
+						<div class="block"><input type="email" name="email" placeholder="Email"></div>
 					</li>
 					<li>
 						<div class="block">
-							<input id="file1" type="file" placeholder="Add profile picture" />
+							<input id="file1" name="licence_image" type="file" placeholder="Add profile picture" />
   							<label for="file1">Upload Driving Licence</label>
 						</div>
 						<div class="block">
-							<input id="file2" type="file" placeholder="Add profile picture" />
+							<input id="file2" name="ticket_front_image" type="file" placeholder="Add profile picture" />
   							<label for="file2">Upload Font Side Ticket</label>
 						</div>
 					</li>
 					<li>
 						<div class="block">
-							<input id="file3" type="file" placeholder="Add profile picture" />
+							<input id="file3" name="ticket_rear_image" type="file" placeholder="Add profile picture" />
   							<label for="file3">Upload Rare Side Ticket</label>
 						</div>
 						<div class="block">
-							<select name="" id="">
-								<option value="">Select Country</option>
-								<option value="">Canada</option>
-							</select>
+							<input type="text" name="country" placeholder="Country">
 						</div>
 					</li>
 					<li>
 						<div class="block">
-							<select name="" id="">
-								<option value="">Select State</option>
-								<option value="">Alberta</option>
-								<option value="">British Columbia</option>
-							</select>
+							<input type="text" name="state" placeholder="State">
 						</div>
 						<div class="block">
-							<select name="" id="">
-								<option value="">Select City</option>
-								<option value="">Victoria</option>
-								<option value="">Edmonton</option>
-							</select>
+							<input type="text" name="city" placeholder="City">
 						</div>
 					</li>
 					<li>
-						<textarea name="" placeholder="Description"></textarea>
+						<textarea name="description" placeholder="Description"></textarea>
 					</li>
 					<li>
-						<input type="button" name="" value="Send Message" class="btn">
+						<input type="submit" name="" value="Send Message" class="btn">
 					</li>
 				</ul>
 			</div>
+			</form>
 		</div>
 	</div>
-
 	<script type="text/javascript">
+
+	var flag = <?php echo $val;?>;
+	if(flag =="1"){
+		
+		toastr.options = {
+						"positionClass": "toast-top-center"
+					}
+					toastr["success"]("Thank you for contacting with us.!");
+	}
 
 		$('#btn').click(function() {
 			var name = $("#name").val();

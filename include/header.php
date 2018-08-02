@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,700i|Oswald:300,400,500,600,700" rel="stylesheet">
 	<!-- CUSTON STYLE.CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/toastr.min.css">
 	<!-- OWL CAROUSAL -->
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
